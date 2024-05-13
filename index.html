@@ -3,31 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <input type="text" id="search-input" placeholder="enter pokemon name" required>
 <button id="search-button" onclick="pokemonData()">Get Pokemon</button>
 <br>
-<div id="pokemon-name">
-
+<div class="pokemon-table">
+    <div class="row">
+        <div class="cell">
+            <p>Pokemon Name:</p>
+        </div>
+        <div class="cell" id="pokemon-name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>ID:</p>
+        </div>
+        <div class="cell" id="pokemon-id">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Weight:</p>
+        </div>
+        <div class="cell" id="weight">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Height:</p>
+        </div>
+        <div class="cell" id="height">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>HP:</p>
+        </div>
+        <div class="cell" id="hp">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Attack:</p>
+        </div>
+        <div class="cell" id="attack">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Defense:</p>
+        </div>
+        <div class="cell" id="defense">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Special Attack:</p>
+        </div>
+        <div class="cell" id="special-attack">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Special Defense:</p>
+        </div>
+        <div class="cell" id="special-defense">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Speed:</p>
+        </div>
+        <div class="cell" id="speed">
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <p>Type:</p>
+        </div>
+        <div class="cell" id="types">
+        </div>
+    </div>
+     <div class="row">
+        <div class="cell">
+            <p>Appearance</p>
+        </div>
+        <div class="pokemon-img-class">
+        </div>
+    </div>
 </div>
-<div id="pokemon-id"></div>
-<div id="weight"></div>
-<div id="height"></div>
-<div id="types"></div>
-<div id="hp"></div>
-<div id="attack"></div>
-<div id="defense"></div>
-<div id="special-attack"></div>
-<div id="special-defense"></div>
-<div id="speed"></div>
 
-<div class=" pokemon-details">
-
-</div>
-
-
-<script src="script.js">
-</script>
+<script src="script.js"></script>
 </body>
 </html>

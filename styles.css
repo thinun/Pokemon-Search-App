@@ -1,0 +1,58 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Input and Button Styling */
+#search-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+.pokemon-table {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cell p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styling for Specific Pokemon Details */
+#pokemon-name {
+    color: #007bff;
+}
+
+#pokemon-id {
+    color: #333;
+}
