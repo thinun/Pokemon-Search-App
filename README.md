@@ -19,7 +19,7 @@
         <h2>Usage</h2>
         <p>To use this project, simply open the <code>index.html</code> file in your web browser. Enter the name of a Pokemon in the search bar and press Enter or click the search button to retrieve its data.</p>
         <h2>Screenshots</h2>
-        <img src="project_image.jpg" alt="Project Screenshot" class="project-image">
+        <img src="https://github.com/thinun/Pokemon-Search-App/blob/master/pokemon%20Search%20app.png" alt="Project Screenshot" class="project-image">
         <h2>Credits</h2>
         <p>This project was created by [Your Name].</p>
         <h2>License</h2>
