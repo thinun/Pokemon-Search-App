@@ -21,7 +21,7 @@
         <h2>Screenshots</h2>
         <img src="https://github.com/thinun/Pokemon-Search-App/blob/master/pokemon%20Search%20app.png" alt="Project Screenshot" class="project-image">
         <h2>Credits</h2>
-        <p>This project was created by [Your Name].</p>
+        <p>This project was created by Thinun.</p>
         <h2>License</h2>
         <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
     </div>
